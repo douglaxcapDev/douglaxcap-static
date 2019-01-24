@@ -8,7 +8,7 @@
 
 .nav-item {
   height: 80px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #419091;
   font-size: 15px;
   line-height: 40px;
@@ -90,14 +90,14 @@
 
 .bold-text {
   padding-top: 0px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 46px;
   line-height: 48px;
 }
 
 .title-small {
   position: relative;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #419091;
   font-size: 16px;
   font-weight: 700;
@@ -106,7 +106,7 @@
 .title-huge {
   position: relative;
   top: 16px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 46px;
   line-height: 48px;
 }
@@ -189,7 +189,7 @@
 }
 
 .about-global-text-part1-title {
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 28px;
   font-weight: 700;
 }
@@ -221,7 +221,7 @@
 }
 
 .bold-text-2 {
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 28px;
 }
 
@@ -262,7 +262,7 @@
 .about-value-title {
   margin-top: 60px;
   margin-left: 40px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 28px;
   font-weight: 700;
 }
@@ -334,7 +334,7 @@
 }
 
 .footer-text {
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #266a6b;
   font-size: 16px;
   font-weight: 600;
@@ -395,7 +395,7 @@
 
 .about-career-item-location-text {
   margin-left: 4px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 16px;
   font-weight: 700;
 }
@@ -412,7 +412,7 @@
   position: static;
   bottom: 30px;
   margin-left: 0px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #419091;
   font-size: 16px;
   font-weight: 700;
@@ -486,7 +486,7 @@
   position: absolute;
   margin-top: 54px;
   margin-left: 40px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #a9e8e3;
   font-size: 40px;
   line-height: 40px;
@@ -555,7 +555,7 @@
 .contact-content-card-text-country {
   margin-top: 24px;
   margin-left: 40px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 32px;
   font-weight: 700;
 }
@@ -637,7 +637,7 @@
   top: 50px;
   margin-top: 16px;
   margin-left: 0px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #a9e8e3;
   font-size: 32px;
   font-weight: 700;
@@ -663,7 +663,7 @@
 
 .career-content-top-location-text {
   margin-left: 8px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #a9e8e3;
   font-size: 20px;
   font-weight: 600;
@@ -684,7 +684,7 @@
 
 .career-content-card-bottom-title {
   margin-bottom: 24px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   font-size: 20px;
   font-weight: 700;
 }
@@ -747,7 +747,7 @@
   width: 120px;
   height: 60px;
   background-color: #a9e8e3;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #104e51;
   font-size: 20px;
   line-height: 42px;
@@ -849,7 +849,7 @@
 
 .home-nav-item {
   height: 80px;
-  font-family: Rajdhani, sans-serif;
+  font-family: Rajdhani;
   color: #a9e8e3;
   font-size: 15px;
   line-height: 40px;
@@ -1109,5 +1109,747 @@
 
 .douglax-body {
   background-color: #0b3c3d;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+._404-body {
+  height: 100%;
+  background-color: #368083;
+}
+
+.heading {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Lato, sans-serif;
+  color: #a9e8e3;
+  text-align: center;
+}
+
+.text-block {
+  margin-bottom: 40px;
+  font-family: Lato, sans-serif;
+  color: #a9e8e3;
+  font-size: 16px;
+  text-align: center;
+}
+
+._404-box {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+._404-box02 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+._404-link {
+  margin-bottom: 30px;
+  font-family: Lato, sans-serif;
+  color: #a9e8e3;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 44px;
+  }
+  .nav-item.w--current {
+    padding-left: 40px;
+    border-left: 4px solid #368083;
+  }
+  .nav-item.active {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 40px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-left: 4px solid #368083;
+    border-top-style: none;
+  }
+  .page-intro-container {
+    height: 320px;
+  }
+  .title-huge {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .title-text {
+    width: 280px;
+  }
+  .about-map {
+    overflow: auto;
+    width: 100%;
+    height: 518px;
+  }
+  .about-map-container {
+    overflow: visible;
+    width: 1080px;
+  }
+  .about-global-container {
+    height: 720px;
+  }
+  .about-global-text {
+    padding-right: 40px;
+  }
+  .about-global-image {
+    padding-top: 100px;
+  }
+  .about-global-text-part2 {
+    height: 260px;
+    margin-top: 40px;
+  }
+  .about-global-image-pic {
+    height: 580px;
+    margin-right: 40px;
+    background-size: 372px;
+  }
+  .about-global-image-icon {
+    top: 100px;
+    right: 0px;
+  }
+  .about-global-text-part1-title {
+    line-height: 32px;
+  }
+  .about-global-text-part2-item-textbox {
+    padding-top: 8px;
+  }
+  .career-content-card {
+    height: 1000px;
+  }
+  .career-content-card-bottom-01 {
+    height: 460px;
+  }
+  .career-content-card-item-02 {
+    height: 60px;
+  }
+  .career-content-card-item-01 {
+    height: 38px;
+  }
+  .career-content-card-bottom-line {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .home-nav-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 44px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .home-nav-item.active.w--current {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 40px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-left: 4px solid #a9e8e3;
+    border-top-style: none;
+    border-top-width: 0px;
+  }
+  .home-slider-title-01 {
+    width: 100%;
+    font-size: 54px;
+    line-height: 60px;
+  }
+  .home-slider-title-02 {
+    width: 100%;
+    font-size: 54px;
+    line-height: 60px;
+  }
+  .home-slider-text {
+    width: 100%;
+  }
+  .wedo-left-arrow {
+    width: 50px;
+  }
+  .wedo-right-arrow {
+    width: 50px;
+  }
+  .about-slider-right-arrow {
+    right: 574px;
+  }
+  .home-slider-box {
+    width: 100%;
+    padding-top: 80px;
+  }
+  .icon-menu {
+    background-image: url('../images/icon_menu.png');
+    background-position: 0px 0px;
+    background-size: 24px;
+  }
+  .icon_menu {
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+    background-image: url('../images/icon_menu.png');
+    background-position: 50% 50%;
+    background-size: 24px;
+    background-repeat: no-repeat;
+  }
+  .home-menu-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .home-menu-button:active {
+    background-color: #368083;
+  }
+  .home-menu-button:focus {
+    background-color: #368083;
+  }
+  .home-menu-button.w--open {
+    background-color: #368083;
+  }
+  .home-nav-menu {
+    background-color: #368083;
+  }
+  .menu-icon-dark {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url('../images/icon_menu_dark.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .menu-button-dark {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .menu-button-dark.w--open {
+    background-color: #f4f7f6;
+  }
+  .normal-nav-menu {
+    background-color: #f4f7f6;
+  }
+  .bold-text-3 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .heading {
+    font-family: Lato, sans-serif;
+  }
+  .text-block {
+    font-family: Lato, sans-serif;
+  }
+  ._404-link {
+    font-family: Lato, sans-serif;
+    color: #a9e8e3;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-intro-container {
+    height: 280px;
+    padding-top: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .page-intro-title {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .page-intro-text {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+  .title-huge {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  .title-text {
+    width: 410px;
+    font-size: 14px;
+  }
+  .about-global-container {
+    height: 890px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .about-global-text {
+    width: 100%;
+    padding-top: 60px;
+  }
+  .about-global-image {
+    width: 100%;
+    padding-top: 0px;
+  }
+  .about-global-image-pic {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    background-size: cover;
+  }
+  .about-global-image-icon {
+    top: 20px;
+    right: 10px;
+  }
+  .wedo-content-card {
+    margin-left: 60px;
+  }
+  .contact-content-card {
+    height: 600px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .contact-content-card-text {
+    width: 100%;
+    height: 300px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  .contact-content-card-image-01 {
+    width: 100%;
+    background-size: cover;
+  }
+  .contact-content-card-text-highlight {
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .contact-content-card-text-country {
+    margin-left: 30px;
+  }
+  .contact-content-card-text-title {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .contact-content-card-text-address {
+    margin-left: 30px;
+  }
+  .contact-content-card-text-contact {
+    margin-top: 16px;
+    margin-left: 30px;
+  }
+  .career-content-container {
+    height: 1100px;
+  }
+  .career-content-card {
+    height: 1060px;
+    margin-right: 20px;
+  }
+  .career-content-bg {
+    height: 1040px;
+  }
+  .career-content-card-bottom-01 {
+    height: 500px;
+  }
+  .career-content-card-item-02 {
+    height: 70px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+  }
+  .career-content-card-item-text {
+    margin-right: 20px;
+  }
+  .career-content-card-item-01 {
+    height: 44px;
+  }
+  .career-content-card-bottom-line {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .home-slider-title-01 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .home-slider-title-02 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .wedo-content-top {
+    margin-left: 60px;
+  }
+  .contact-content-card-image-02 {
+    width: 100%;
+  }
+  .contact-content-card-image-03 {
+    width: 100%;
+  }
+  .about-slider-right-arrow {
+    right: 414px;
+  }
+  .bold-text-4 {
+    line-height: 40px;
+  }
+  .heading {
+    font-family: Lato, sans-serif;
+  }
+  .text-block {
+    font-family: Lato, sans-serif;
+  }
+  ._404-link {
+    font-family: Lato, sans-serif;
+    color: #a9e8e3;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 479px) {
+  .nav-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .page-intro-container {
+    height: 320px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .page-intro-title {
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .page-intro-text {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  .title-huge {
+    line-height: 38px;
+  }
+  .title-text {
+    width: 260px;
+  }
+  .about-global-container {
+    height: 1060px;
+  }
+  .about-global-text {
+    padding: 40px 30px;
+  }
+  .about-global-image-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .about-global-text-part2-item-text {
+    margin-right: 0px;
+  }
+  .about-global-text-part2-item-textbox {
+    padding-bottom: 8px;
+  }
+  .about-value-content {
+    height: 400px;
+  }
+  .about-value-card-text {
+    width: auto;
+    height: 400px;
+  }
+  .about-career-content-item {
+    width: auto;
+    height: 280px;
+  }
+  .wedo-content-card {
+    width: 100%;
+    height: 460px;
+    margin-left: 0px;
+  }
+  .wedo-content-container {
+    top: 0px;
+  }
+  .wedo-content-card-top-highlight {
+    left: 30px;
+  }
+  .wedo-content-card-top-title {
+    margin-left: 30px;
+  }
+  .wedo-content-card-bottom-text {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .contact-content-card {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .contact-content-card-text-highlight {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .contact-content-card-text-country {
+    margin-left: 20px;
+  }
+  .contact-content-card-text-title {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    line-height: 24px;
+  }
+  .contact-content-card-text-address {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .contact-content-card-text-contact {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .career-content-container {
+    height: 1480px;
+  }
+  .career-content-card {
+    height: 1460px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .career-content-bg {
+    height: 1420px;
+  }
+  .career-content-card-top {
+    height: 240px;
+  }
+  .career-content-card-top-highlight {
+    left: 20px;
+  }
+  .career-content-card-top-title {
+    left: 20px;
+  }
+  .career-content-card-top-location {
+    margin-left: 16px;
+  }
+  .career-content-card-bottom-01 {
+    height: 700px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+  .career-content-card-bottom-02 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .career-content-card-item-02 {
+    height: 117px;
+  }
+  .career-content-card-bottom-description {
+    margin-right: 0px;
+  }
+  .career-content-card-item-text {
+    margin-right: 0px;
+    line-height: 18px;
+  }
+  .career-content-card-item-01 {
+    height: 90px;
+  }
+  .career-content-card-button-box {
+    top: auto;
+    right: 20px;
+    bottom: 20px;
+  }
+  .career-content-card-button {
+    height: 60px;
+  }
+  .career-content-card-bottom-line {
+    margin: 10px 20px 40px;
+  }
+  .home-slider-left-arrow {
+    width: 50px;
+  }
+  .home-slider-right-arrow {
+    width: 50px;
+  }
+  .home-nav-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .home-slider-title-01 {
+    width: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .home-slider-title-02 {
+    width: auto;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .home-slider-text {
+    margin-top: 100px;
+  }
+  .wedo-content-top {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .about-slider-left-arrow {
+    top: 300px;
+  }
+  .about-slider-right-arrow {
+    top: 300px;
+    right: 166px;
+  }
+  .home-slider-box {
+    padding-top: 140px;
+  }
+  .bold-text-5 {
+    line-height: 42px;
+  }
+  .heading {
+    font-family: Lato, sans-serif;
+  }
+  .text-block {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: Lato, sans-serif;
+  }
+  ._404-box02 {
+    width: 100%;
+  }
+  ._404-link {
+    font-family: Lato, sans-serif;
+    color: #a9e8e3;
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 
